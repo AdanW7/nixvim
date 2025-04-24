@@ -1,0 +1,5 @@
+{ whichKeyKeymaps, ... }:
+
+{
+  keymaps = whichKeyKeymaps;
+}
