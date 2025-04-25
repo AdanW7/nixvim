@@ -20,6 +20,7 @@
       ./modules/lint.nix
       ./modules/lsp.nix
       ./modules/treesitter.nix
+      ./modules/gitsigns.nix
       ./modules/lualine.nix
       ./modules/cmp.nix
 
