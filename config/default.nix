@@ -14,7 +14,8 @@
       ./modules/neotree.nix
 
       ./modules/transparent.nix
-
+      
+      ./modules/autopairs.nix
       ./modules/telescope.nix
       ./modules/lint.nix
       ./modules/lsp.nix
