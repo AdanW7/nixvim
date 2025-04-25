@@ -26,15 +26,8 @@
       ./modules/cmp.nix
 
       # ./keymapping.nix # dont enable this, this exists as a list that is imported directly into which-key
-      # ./modules/mapleader.nix
-      # ./modules/which-key.nix
       ./modules/keybind/which-key.nix
-      # ./modules/keymap-loader.nix
       ./modules/keybind/keymap-loader.nix
-
-      # ./modules/ui_option.nix
-      # ./modules/editor_option.nix
-
 
    ];
 
