@@ -30,7 +30,7 @@
       # ./modules/which-key.nix
       ./modules/keybind/which-key.nix
       # ./modules/keymap-loader.nix
-      ./modules/keybind/keymap-loader.nix.nix
+      ./modules/keybind/keymap-loader.nix
 
       # ./modules/ui_option.nix
       # ./modules/editor_option.nix
