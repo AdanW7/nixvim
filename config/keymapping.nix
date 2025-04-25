@@ -147,26 +147,24 @@
       mode = "n";
       key = "<C-h>";
       action = "<C-w>h";
-      desc = "Move to Left Window";
-
    }
+
    {
       mode = "n";
       key = "<C-j>";
       action = "<C-w>j";
-      desc = "Move to Lower Window";
    }
+
    {
       mode = "n";
       key = "<C-k>";
       action = "<C-w>k";
-      desc = "Move to Above Window";
    }
+
    {
       mode = "n";
       key = "<C-l>";
       action = "<C-w>l";
-      desc = "Move to Right Window";
    }
 
 
