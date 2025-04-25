@@ -24,7 +24,7 @@
       ./modules/cmp.nix
       ./modules/inlay_hints.nix
 
-      # ./keymapping.nix
+      # ./keymapping.nix # dont enable this, this exists as a list that is imported directly into which-key
       ./modules/mapleader.nix
       ./modules/which-key.nix
       ./modules/keymap-loader.nix
