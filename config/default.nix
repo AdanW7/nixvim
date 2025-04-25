@@ -7,8 +7,9 @@
 
       ./modules/comment.nix
 
-      ./modules/extra_colorschemes.nix
-      ./modules/colorscheme.nix
+      # ./modules/extra_colorschemes.nix
+      # ./modules/colorscheme.nix
+      ./modules/colorscheme
 
       ./modules/web-devicons.nix
       ./modules/bufferline.nix
@@ -25,9 +26,9 @@
       ./modules/lualine.nix
       ./modules/cmp.nix
 
-      # ./keymapping.nix # dont enable this, this exists as a list that is imported directly into which-key
-      ./modules/keybind/which-key.nix
-      ./modules/keybind/keymap-loader.nix
+      ./modules/keybind
+      # ./modules/keybind/which-key.nix
+      # ./modules/keybind/keymap-loader.nix
 
    ];
 
