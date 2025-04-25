@@ -1,9 +1,9 @@
 {...}: {
-  opts = {
-    list = true;
-  };
+  # opts = {
+  #   list = true;
+  # };
 
-  extraConfigLua = ''
-    vim.opt.listchars:append("lead:·")
-  '';
+  # extraConfigLua = ''
+  #   vim.opt.listchars:append("lead:·")
+  # '';
 }
