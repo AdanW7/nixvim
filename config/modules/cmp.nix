@@ -1,4 +1,4 @@
-{  pkgs, ... }:
+# {  pkgs, ... }:
 {
 # Snippet engine
 plugins.luasnip = { enable = true; };
@@ -73,10 +73,10 @@ extraConfigLua = ''
     },
   })
 
-vim.keymap.set("n", "<leader>i", function()
-  -- Simple global toggle that should work across versions
-  vim.cmd("lua vim.lsp.inlay_hint.toggle()")
-end, { desc = "Toggle Inlay Hints" })
+-- vim.keymap.set("n", "<leader>i", function()
+--   -- Simple global toggle that should work across versions
+--   vim.cmd("lua vim.lsp.inlay_hint.toggle()")
+-- end, { desc = "Toggle Inlay Hints" })
 
 '';
 

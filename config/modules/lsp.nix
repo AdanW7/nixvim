@@ -1,4 +1,5 @@
-{ lib, pkgs, ... }: {
+# { lib, pkgs, ... }: {
+ {
    opts = {
        completeopt = "menuone,noselect";
    };
@@ -135,11 +136,10 @@
                clangdFileStatus = true;
                usePlaceholders = true;
                completeUnimported = true;
-               # semanticHighlighting = true; # ⚠️ optional: deprecated
              };
              flags = {
-               allow_incremental_sync = false; # ✅
-               debounce_text_changes = 150;    # ✅ in milliseconds
+               allow_incremental_sync = false; 
+               debounce_text_changes = 150;    
              };
           };
         };
@@ -156,7 +156,7 @@
           autostart = true;
         };
       };
-   keymaps = {
+      keymaps = {
           silent = true;
           lspBuf = {
             gd = {
@@ -207,20 +207,6 @@
               desc = "Signature Help";
             };
           };
-          # diagnostic = {
-          #   "<leader>cd" = {
-          #     action = "open_float";
-          #     desc = "Line Diagnostics";
-          #   };
-          #   "[d" = {
-          #     action = "goto_next";
-          #     desc = "Next Diagnostic";
-          #   };
-          #   "]d" = {
-          #     action = "goto_prev";
-          #     desc = "Previous Diagnostic";
-          #   };
-          # };
             diagnostic = {
               "<leader>cd" = {
                 action = "open_float";
@@ -286,6 +272,5 @@
             underline = true,
             update_in_insert = true,
       		})
-
     '';
 }

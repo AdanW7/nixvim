@@ -1,4 +1,5 @@
-{ config, lib, pkgs, ... }: {
+# { config, lib, pkgs, ... }: {
+{ pkgs, ... }: {
   plugins.telescope = {
     enable = true;
     extensions = {

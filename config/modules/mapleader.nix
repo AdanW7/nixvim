@@ -1,5 +1,4 @@
 
-{self, ...}: {
-
+{
   globals.mapleader = " ";
 }
