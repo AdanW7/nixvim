@@ -33,16 +33,6 @@
       };
    }
 
-   # Toggle inlay hints with <leader>i work done in cmp.nix
-   # {
-   #   mode = "n";
-   #   key = "<leader>i";
-   #   action = "<cmd>lua toggle_inlay_hints()<CR>";
-   #   options = {
-   #     desc = "Toggle LSP Inlay Hints";
-   #     silent = true;
-   #   };
-   # }
 
    # Neo-tree bindings
    {
@@ -157,21 +147,26 @@
       mode = "n";
       key = "<C-h>";
       action = "<C-w>h";
+      desc = "Move to Left Window";
+
    }
    {
       mode = "n";
       key = "<C-j>";
       action = "<C-w>j";
+      desc = "Move to Lower Window";
    }
    {
       mode = "n";
       key = "<C-k>";
       action = "<C-w>k";
+      desc = "Move to Above Window";
    }
    {
       mode = "n";
       key = "<C-l>";
       action = "<C-w>l";
+      desc = "Move to Right Window";
    }
 
 

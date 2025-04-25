@@ -1,13 +1,6 @@
 # { config, lib, pkgs, ... }:
 
-# let
-#   # Import the extra color schemes configuration
-#   extraColorschemes = import ./modules/extra_colorschemes.nix { inherit lib pkgs config; };
-#
-# in 
-
-   {
-
+{
   # method for built in themes
   # colorschemes = {
   #   # ayu.enable = true;

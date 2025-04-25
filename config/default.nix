@@ -22,7 +22,6 @@
       ./modules/treesitter.nix
       ./modules/lualine.nix
       ./modules/cmp.nix
-      ./modules/inlay_hints.nix
 
       # ./keymapping.nix # dont enable this, this exists as a list that is imported directly into which-key
       ./modules/mapleader.nix
