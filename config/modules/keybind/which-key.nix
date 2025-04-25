@@ -1,7 +1,7 @@
 { lib, ... }:
 
 let
-  keymaps = import ./../keymapping.nix;
+ keymaps = import ./keymapping.nix;
 
   # Format each line into a Lua keymap entry
   lines = builtins.filter (x: x != "") (builtins.map (km:
