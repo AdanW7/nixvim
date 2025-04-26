@@ -26,7 +26,7 @@
          };
       };
 
-      addBlankLineAtTop = true;
+      # addBlankLineAtTop = true;
    };
    extraConfigLua = ''
       vim.cmd([[
