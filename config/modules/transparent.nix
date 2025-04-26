@@ -5,6 +5,8 @@
          highlight Normal ctermbg=none guibg=none
          highlight NonText ctermbg=none guibg=none
          highlight NormalNC guibg=none ctermbg=none
+         highlight StatusLine guibg=NONE ctermbg=NONE
+         highlight StatusLineNC guibg=NONE ctermbg=NONE
       ]]
    '';
 }
