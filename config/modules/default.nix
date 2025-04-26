@@ -4,10 +4,10 @@
       ./comment.nix
 
       ./colorscheme
+      ./icons
 
-      ./web-devicons.nix
       ./bufferline.nix
-      ./neotree.nix
+      ./neotree
 
       ./transparent.nix
       
