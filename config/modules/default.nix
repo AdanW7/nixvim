@@ -33,6 +33,6 @@
       ./keybind
 
       # ./transparent.nix
-      ./transparent
+      # ./transparent
    ];
 }

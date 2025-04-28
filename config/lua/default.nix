@@ -1,5 +1,5 @@
 {
    imports = [
-      ./transparent.nix
+      ./lua.nix
    ];
 }
