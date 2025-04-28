@@ -1,4 +1,5 @@
 { ... }: {
+   # makes the windows transparent
    extraConfigLua = ''
       vim.cmd [[
          highlight Normal ctermbg=none guibg=none
@@ -15,4 +16,7 @@
 
       ]]
    '';
+
+
+
 }
