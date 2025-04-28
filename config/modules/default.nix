@@ -1,24 +1,36 @@
 {
    imports = [
 
-      ./comment.nix
+      # ./comment.nix
+      ./comment
 
       ./colorscheme
       ./icons
 
-      ./bufferline.nix
+      # ./bufferline.nix
+      ./bufferline
+
       ./neotree
 
-      ./transparent.nix
+      # ./transparent.nix
+      ./transparent
       
-      ./autopairs.nix
-      ./telescope.nix
-      ./lint.nix
-      ./lsp.nix
-      ./treesitter.nix
-      ./gitsigns.nix
-      ./lualine.nix
-      ./cmp.nix
+      # ./autopairs.nix
+      ./autopairs
+      # ./telescope.nix
+      ./telescope
+      # ./lint.nix
+      ./lint
+      # ./lsp.nix
+      ./lsp
+      # ./treesitter.nix
+      ./treesitter
+      # ./gitsigns.nix
+      ./git
+      # ./lualine.nix
+      ./lualine
+      # ./cmp.nix
+      ./cmp
 
       ./keybind
 
