@@ -4,6 +4,7 @@
       ./globals.nix
       ./options.nix
       ./plugins.nix
+      ./lua.nix
 
       ./modules
 
