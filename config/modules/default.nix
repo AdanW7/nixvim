@@ -12,8 +12,6 @@
 
       ./neotree
 
-      # ./transparent.nix
-      ./transparent
       
       # ./autopairs.nix
       ./autopairs
@@ -34,5 +32,8 @@
 
       ./keybind
 
+      # ./transparent
+      # ./transparent.nix
+      ./transparent.nix
    ];
 }
