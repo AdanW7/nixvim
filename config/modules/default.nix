@@ -32,8 +32,7 @@
 
       ./keybind
 
-      # ./transparent
       # ./transparent.nix
-      ./transparent.nix
+      ./transparent
    ];
 }
