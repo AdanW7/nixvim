@@ -3,7 +3,10 @@
    opts = {
        completeopt = "menuone,noselect";
    };
-  plugins = {
+   plugins = {
+      lspconfig = {
+         enable = true;
+      };
    
    lsp-format = {
       enable = true;
@@ -155,6 +158,16 @@
           enable = true;
           autostart = true;
         };
+         zls = {
+               enable = true;
+               autostart = true;
+               settings = {
+                  filetypes = [
+                     "zig"
+                     "zon"
+                  ];
+               };
+            };
       };
       keymaps = {
           silent = true;
