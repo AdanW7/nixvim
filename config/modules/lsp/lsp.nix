@@ -4,9 +4,9 @@
        completeopt = "menuone,noselect";
    };
    plugins = {
-      lspconfig = {
-         enable = true;
-      };
+      # lspconfig = {
+      #    enable = true;
+      # };
    
    lsp-format = {
       enable = true;
