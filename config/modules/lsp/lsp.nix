@@ -159,12 +159,12 @@
           autostart = true;
         };
          zls = {
+               activate = true;
                enable = true;
                autostart = true;
                settings = {
                   filetypes = [
                      "zig"
-                     "zon"
                   ];
                };
             };
