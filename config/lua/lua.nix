@@ -15,6 +15,14 @@
          highlight! NeoTreeFloatTitle guibg=NONE ctermbg=NONE
 
       ]]
+      vim.api.nvim_create_user_command("ForceZig", function()
+      vim.lsp.start({
+        name = "zls",
+        cmd = { "zls" },
+        root_dir = vim.fn.getcwd(),
+        filetypes = { "zig" },
+      })
+    end, {})
    '';
 
 
