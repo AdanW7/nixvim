@@ -28,11 +28,17 @@
          zls = {
             enable = true;
             autostart = true;
-            settings = {
+            # settings = {
                # filetypes = [
                #    "zig"
                # ];
+            # };
+            settings = {
+               single_file_support = true;
+               filetypes = [ "zig" ];
+               root_markers = [ "build.zig" ".git" ];
             };
+
          };
         nixd = {
           enable = true;
