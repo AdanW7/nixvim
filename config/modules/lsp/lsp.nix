@@ -25,6 +25,15 @@
       # };
 
       servers = {
+         zls = {
+            enable = true;
+            autostart = true;
+            settings = {
+               # filetypes = [
+               #    "zig"
+               # ];
+            };
+         };
         nixd = {
           enable = true;
           autostart = true;
@@ -158,15 +167,6 @@
           enable = true;
           autostart = true;
         };
-         zls = {
-               enable = true;
-               autostart = true;
-               settings = {
-                  filetypes = [
-                     "zig"
-                  ];
-               };
-            };
       };
       keymaps = {
           silent = true;
