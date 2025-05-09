@@ -198,7 +198,7 @@
               desc = "Type Definition";
             };
 
-            K = {
+            "<leader>lh" = {
               action = "hover";
               desc = "Hover";
             };
@@ -220,7 +220,7 @@
               action = "code_action";
               desc = "Code Action";
             };
-            "<C-k>" = {
+            "<leader>sh" = {
               action = "signature_help";
               desc = "Signature Help";
             };

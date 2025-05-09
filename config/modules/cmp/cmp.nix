@@ -2,15 +2,6 @@
 {
 # Snippet engine
 plugins.luasnip = { enable = true; };
-# extraPlugins = with pkgs; [ luaPackages.luasnip vimPlugins.blink-cmp ];
-
-# Blink.cmp integration
-# plugins."blink-cmp" = {
-#   enable = true;
-#   autoLoad = true;
-#   setupLspCapabilities = true;
-#   # package = pkgs.vimPlugins.blink-cmp;
-# };
 
 plugins = {
   # Core nvim-cmp engine
