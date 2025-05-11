@@ -28,11 +28,6 @@
          zls = {
             enable = true;
             autostart = true;
-            # settings = {
-               # filetypes = [
-               #    "zig"
-               # ];
-            # };
             settings = {
                single_file_support = true;
                filetypes = [ "zig" ];
@@ -198,7 +193,7 @@
               desc = "Type Definition";
             };
 
-            "<leader>h" = {
+            "<leader>lh" = {
               action = "hover";
               desc = "Hover";
             };
@@ -220,7 +215,7 @@
               action = "code_action";
               desc = "Code Action";
             };
-            "<leader>sh" = {
+            "<leader>csh" = {
               action = "signature_help";
               desc = "Signature Help";
             };
