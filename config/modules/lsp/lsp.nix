@@ -198,7 +198,7 @@
               desc = "Type Definition";
             };
 
-            "<leader>lh" = {
+            "<leader>h" = {
               action = "hover";
               desc = "Hover";
             };
