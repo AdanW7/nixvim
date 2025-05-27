@@ -31,7 +31,7 @@
             settings = {
                single_file_support = true;
                filetypes = [ "zig" ];
-               root_markers = [ "build.zig" ".git" ];
+               root_markers = [ "build.zig" ];
             };
 
          };
